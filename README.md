@@ -72,6 +72,9 @@ The following environment variables are supported:
 
    Setting to '1' enables the QEMU mode - creating an image that can be mounted via QEMU for an emulated
    environment. These images include "-qemu" in the image file name.
+   
+ * `FREE_SPACE_MB` (Default: <int> 400)
+   Add a free space in the partition (value in megabyte). If Qemu image is generated it could be usefull to have a lot of free space.
 
 
 A simple example for building Raspbian:
